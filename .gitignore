@@ -1,0 +1,21 @@
+# Maven build output
+target/
+*.class
+
+# IDE configurations
+.idea/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+.vscode/
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Log files
+*.log

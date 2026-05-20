@@ -1,0 +1,25 @@
+# Example Rules File for DPI Engine
+# This file demonstrates the blocking rules syntax
+
+# Block specific source IPs
+BLOCK_IP 192.168.1.50
+BLOCK_IP 10.0.0.100
+
+# Block applications detected via SNI
+BLOCK_APP FACEBOOK
+BLOCK_APP INSTAGRAM
+BLOCK_APP TIKTOK
+BLOCK_APP NETFLIX
+
+# Block specific domains (exact match)
+BLOCK_DOMAIN facebook.com
+BLOCK_DOMAIN instagram.com
+
+# Block domain patterns (wildcard)
+BLOCK_DOMAIN *.facebook.com
+BLOCK_DOMAIN *.instagram.com
+BLOCK_DOMAIN *.tiktok.com
+
+# Block specific ports
+BLOCK_PORT 443
+BLOCK_PORT 8080
